@@ -1,5 +1,6 @@
 # Kimathi Stress Test Tool
-**Version 1.0.0**
+
+Version 2.1.0
 
 ![Kimathi](kimathi.png)
 
@@ -11,39 +12,35 @@ To use the stress-testing tool, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/wizaad/kimathi.git
+    ```bash
+    git clone https://github.com/wizaad/kimathi.git
+    ```
 
----
+2. Navigate to the cloned directory:
 
-## Usage
+    ```bash
+    cd kimathi
+    ```
 
-Navigate to the cloned directory:
+3. Run the stress-testing tool with the desired parameters:
 
-bash
-Copy code
-cd kimathi
-Run the stress-testing tool with the desired parameters:
+    ```bash
+    python kimathi.py -t <target> -p <port> -d <duration> -s <size>
+    ```
 
-bash
-Copy code
-python stress_test.py -t <target> -p <port> -d <duration> -s <size>
-Disclaimer
+## Disclaimer
+
 In memory of Dedan Kimathi, this tool is provided for educational purposes only. Use responsibly.
 
-Author
-Wizaad
-Twitter
-License
+## Author
 
----
+- [Wizaad](https://github.com/Wizaad)
+- Website: [@MrWizaad](https://wizaad.com)
+
+## License
+
+© Hello Wizaad Limited 2023. All rights reserved.
 
 ## Contributors
 
-- Mr Wizaad <wizaad@protonmail.com>
-
----
-
-## Licence & copyright
-
- © Hello Wizaad Limited 2023 All rights reserved
+- Mr Wizaad (Email: wizaad@protonmail.com)
