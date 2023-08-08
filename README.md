@@ -1,19 +1,40 @@
-# Kimathi DDoS
-
+# Kimathi Stress Test Tool
 **Version 1.0.0**
 
-A python3 bases DDoS stress test tool. In memories of Dedan Kimathi
----
+![Kimathi](kimathi.png)
 
-## Installation
+This repository contains an advanced stress-testing tool for cyber security purposes.
 
-git clone https://github.com/wizaad/kimathi.git
+## Usage
+
+To use the stress-testing tool, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/wizaad/kimathi.git
 
 ---
 
 ## Usage
 
-python3 kimathi.py
+Navigate to the cloned directory:
+
+bash
+Copy code
+cd kimathi
+Run the stress-testing tool with the desired parameters:
+
+bash
+Copy code
+python stress_test.py -t <target> -p <port> -d <duration> -s <size>
+Disclaimer
+In memory of Dedan Kimathi, this tool is provided for educational purposes only. Use responsibly.
+
+Author
+Wizaad
+Twitter
+License
 
 ---
 
@@ -25,4 +46,4 @@ python3 kimathi.py
 
 ## Licence & copyright
 
- © Mr. Wizaad Limited 2021 All rights reserved
+ © Hello Wizaad Limited 2023 All rights reserved
